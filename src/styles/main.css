@@ -1,0 +1,227 @@
+
+span.badge {
+    display: inline-block;
+}
+span.badge:empty::before {
+    content: attr(data-placeholder);
+    display: inline-block;
+    color: gray;
+}
+span.badge:empty:focus::before {
+    content: "...";
+    color: gray;
+}
+    span.badge:focus {
+        outline: 1px solid black;
+    }
+    span.badge:hover {
+        cursor: text;
+    }
+
+    textarea:empty::before {
+        content: attr(data-placeholder);
+        display: inline-block;
+        color: gray;
+        font-size: 1em;
+    }
+    textarea:empty:focus::before {
+        content: "...";
+        color: gray;
+    }
+            li:focus {
+            outline: 1px solid black;
+        }
+            li:hover {
+            cursor: text;
+        }
+
+
+
+
+
+
+.name {
+    margin-top: 100px;
+    font-size: 22px;
+    text-align: center;
+
+}
+.address {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.sub-info {
+    margin: 6px;
+    font-size: 12px;
+}
+    .phone {
+        text-align: right;
+    }
+    .email {
+        text-align: left;
+    }
+    * {
+        /* outline: none;
+        border: none; */
+        text-overflow: inherit;
+        white-space: normal;
+        overflow: visible;
+
+    }
+
+.main-title {
+    display: inline-block;
+    transform:translate(50%, 0);
+    margin-right: 6.45in;
+}
+.underline {
+    margin-top: -30px;
+    margin-bottom: 5px; 
+}
+    .sub-heading-container {
+        
+        display: inline-block;
+        height: 25px;
+        width: 6.2in;
+    }
+        .sub-heading {
+            float: left;
+            text-align: left;
+            font-size: 16px;
+            margin: none;
+           
+        }
+            .sub-heading-date {
+                text-align: right;
+                z-index: 5;
+                margin: none;
+                
+            }
+                #dateEnd {
+                    float: right;
+                }
+                .date-dash {
+                    float: right;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                #dateStart {
+                    float: right;
+                }
+            .sub-heading-descriptor {
+                float: left;
+                text-align: left;
+                font-size: 12px;
+            }
+                /* #major-container {
+                    margin-top: -5px;
+                } */
+
+.bottom-button {
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 13px;
+    color: rgb(75, 73, 73);
+    font-size: 1em;
+}
+    .bottom-button:hover {
+        box-shadow: 0 0 0 1pt black;
+    }
+    .bottom-button:focus {
+        outline: none;
+        border: none;
+    }
+    .add-button {
+        background-color: rgba(15, 207, 8, 0.616);
+        margin-right: 5px;
+    }
+    .delete-Button {
+        background-color: rgba(228, 79, 20, 0.74);
+        margin-left: 5px;
+    }
+
+.employment-location {
+    float: right;
+}
+
+/* EXPERIENCE!!!! */
+.responsiblity-button {
+    position: absolute;
+    transform: translate(50%, 0);
+    margin-left: -220px;
+    background-color:rgba(15, 170, 9, 0.671);
+    color: rgb(75, 73, 73);
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+}
+.responsiblities-container {
+    width: 6.3in;
+}
+.skills-container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    position: relative;
+    width: 6in;
+    text-align: left;
+    padding: none;
+}
+.responsibilities {
+    position: relative;
+    width: 6.3in;
+    text-align: left;
+    font-size: 0.8em;
+    resize: vertical;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.skills {
+    resize: none;
+    width: 2.75in;
+    height: 0.5in;
+    margin: 9px;
+    
+}
+    /* #right-skills {
+        position: absolute;
+        right: -2.9in;
+    } */
+
+.key-points {
+    position: relative;
+    bottom: 20px;
+}
+    .key-points {
+        text-align: left;
+        margin-left: -42px;
+        font-size: 0.8em;
+        list-style: none;
+    }
+        .key-points:before {
+            position: relative;
+            right: 5px;
+            bottom: 1px;
+            content: "•";
+            font-size: 8px;
+        }
+
+.hide-buttons {
+    position: absolute;
+    top: 40px;
+    transform:translate(100%, 0);
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.hide-buttons:hover {
+    box-shadow: 0 0 0 2px black;
+}
+    .hide-buttons:focus {
+        border: none;
+        outline: none;
+    }
